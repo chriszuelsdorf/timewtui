@@ -1,0 +1,25 @@
+Certain reports can be shown with keywords.
+
+Non-whitelisted commands will be sent off to TimeWarrior
+
+REPORT SUMn
+# if n is unspecified it will be 1 (i.e., only today)
+
+```
+Sunday, 19 March
+
+Tag   Total Time   % Time
+```
+
+# if multiple days
+
+```
+Saturday, 18 March to Sunday, 19 March
+
+Tag   Total Time   % Time
+```
+
+
+REPORT DET
+# This is equivalent to `timew summary :id`, with any other modifications 
+#   tacked on.
